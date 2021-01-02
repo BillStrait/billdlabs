@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    font-family: 'Baskerville', 'Baskerville Old Face', 'Garamond', 'Times New Roman', 'serif';
+    font-size: x-large;
+    background-color: black;
+    color: whitesmoke;
+    /* -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: darkslategray; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:visited{
+    color:blue;
+}
+
+a:link{
+    color: blue;
+}
+
+#titleText{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+#contactList {
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    list-style: none;
+    
+}
+
+.contactListItem{
+    display: inline-block;
+    margin-bottom: 1em;
+}
+.contactText{
+    display: inline-block;
+    width: 10em;
+    text-align: left;
+    
+}
+
+.contactLink{
+    display: inline-block;
+    width: 10em;
+    text-align: right;
 }
