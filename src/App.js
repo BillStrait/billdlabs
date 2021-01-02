@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 
 class TitleBanner extends React.Component{
@@ -27,6 +25,15 @@ class LinksList extends React.Component{
     }
 }
 
+class Cursor extends React.Component{
+  render(){
+    return(
+      <div id="cursor"></div>
+    )
+  }
+
+}
+
 
 
 
@@ -35,6 +42,7 @@ function App() {
     <div className="App">
       <TitleBanner/>
       <LinksList/>
+      <Cursor/>
     </div>
   );
 }
