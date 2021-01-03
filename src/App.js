@@ -25,10 +25,13 @@ class LinksList extends React.Component{
     }
 }
 
-class Cursor extends React.Component{
+class Console extends React.Component{
   render(){
     return(
-      <div id="cursor"></div>
+      <div id="theGame">
+        <div id="console"></div>
+        <div id="cursor"></div>
+      </div>
     )
   }
 
@@ -37,12 +40,13 @@ class Cursor extends React.Component{
 
 
 
-function App() {
+function App(){
+
   return (
     <div className="App">
       <TitleBanner/>
       <LinksList/>
-      <Cursor/>
+      <Console/>
     </div>
   );
 }
