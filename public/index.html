@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -39,35 +39,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script type="application/javascript" lang="application/javascript">
-      var body = document.getElementsByTagName('body')[0];
-      body.addEventListener('keydown', function(e){
-        var console = document.getElementById('console');
-        switch(e.key){
-          case 'Alt':
-            break;
-          case 'Shift':
-            break;
-          case 'Tab':
-            break;
-          case 'Enter':
-            if(console.textContent == 'white rabbit'){
-              console.textContent = "Check back later.";
-            }
-            break;
-          case 'Backspace':
-            console.textContent = console.textContent.substring(0, console.textContent.length-1);
-            break;
-          default:
-            console.textContent = console.textContent + e.key;
-            break;
-        }
-        
-        if(e.keyCode == 32){
-          console.textContent = console.textContent + ' ';
-        }
-      });
-
-    </script>
   </body>
 </html>
