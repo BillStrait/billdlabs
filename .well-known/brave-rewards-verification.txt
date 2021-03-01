@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: billdlabs.com
+Token: 596ca474d1c9eb41fb606b198e141ff01f375ca2166100312c4daac9c2a26885
